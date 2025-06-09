@@ -25,7 +25,7 @@ function App() {
     setResponse(null)
     
     try {
-      const res = await axios.post('http://localhost:8000/generate', { 
+      const res = await axios.post('https://edtech-bot.onrender.com/generate', { 
         topic: topic.trim(),
         difficulty: difficulty
       })
